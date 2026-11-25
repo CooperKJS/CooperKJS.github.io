@@ -47,7 +47,6 @@
             align-items: center;
             align-content: center;
             background-color: rgba(4, 78, 4, 0.5);
-            position: absolute;
             color: rgb(255, 241, 225);
             border-style: solid;
             border-width: 5px;
@@ -72,18 +71,20 @@
                 width: 95vw;
                 height: 90vh;
                 flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
+                justify-content: right;
+                align-content: center;
                 position: absolute;
-                top: 7.5%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
             #bar {
                 background-color: rgb(255, 241, 225);
-                width: 100vw;
-                height: 5vh;
+                width: 4vw;
+                height: 100vh;
                 position: absolute;
-                bottom: 95%;
-                left: 0%;
+                bottom: 0%;
+                right: 96%;
             }
     </style>
     <meta charset="UTF-8">
@@ -91,7 +92,9 @@
     <title>MelissaReederHatePage</title>
 </head>
 <body>
-    <div id="bar"></div>
+    <div id="bar">
+
+    </div>
     <div id="ikybisb">
 
         <div id="reeds">
